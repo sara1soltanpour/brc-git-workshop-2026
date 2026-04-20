@@ -1,12 +1,10 @@
 ---
-title: "Exercises — Hour 2"
-subtitle: "Git for people who've been meaning to learn Git (but haven't yet)"
+title: "Exercises"
 format:
   html:
     toc: true
     toc-depth: 2
     toc-title: "Exercises"
-    theme: cosmo
     code-copy: true
 ---
 
@@ -23,7 +21,7 @@ Make sure you have:
 - **Git installed** — open a terminal and run `git --version`. You should see a version number.
 - **A GitHub account** — if not, create one at [github.com](https://github.com)
 - **GitHub Desktop installed** (recommended for beginners) — [desktop.github.com](https://desktop.github.com)
-- **If you're following the command-line route:** install the **GitHub CLI** (`gh`) as described on the [setup page](setup.qmd#github-desktop)
+- **If you're following the command-line route:** install the **GitHub CLI** (`gh`) as described on the [setup page](setup.qmd#github-cli)
 - **The example project folder** — download [`example.zip`](example.zip), unzip it somewhere you can find it (e.g. your Desktop). It contains a small R project: a dataset, three scripts, and a README.
 
 ::: {.callout-tip}
@@ -55,7 +53,7 @@ A quick check to make sure everything is ready before we dive in.
 ### GitHub Desktop
 
 1. Open **GitHub Desktop**
-2. Check you're signed in: go to **GitHub Desktop → Preferences → Accounts** (Mac) or **File → Options → Accounts** (Windows). You should see your GitHub username.
+2. Check you're signed in: go to **GitHub Desktop → Settings → Accounts** (Mac) or **File → Options → Accounts** (Windows). You should see your GitHub username.
 3. If you're not signed in, click **Sign in to GitHub.com** and follow the prompts.
 
 ### Command line
@@ -70,7 +68,7 @@ A quick check to make sure everything is ready before we dive in.
    ```bash
    gh auth status
    ```
-   If you get `gh: command not found`, go back to the [setup page](setup.qmd#github-desktop) and install the GitHub CLI first.
+   If you get `gh: command not found`, go back to the [setup page](setup.qmd#github-cli) and install the GitHub CLI first.
    If you see `Logged in to github.com`, you're ready. If not, run:
    ```bash
    gh auth login
@@ -114,7 +112,6 @@ You're going to turn the example project folder into a Git repository, make your
 2. Initialise a Git repository:
    ```bash
    git init
-   git symbolic-ref HEAD refs/heads/main
    ```
 
 :::
@@ -131,14 +128,14 @@ Git created a hidden `.git` folder inside your project. That folder *is* the rep
 ### GitHub Desktop
 
 1. You should see all the project files listed as **changes** in the left panel
-2. In the bottom-left, write a commit message: `Initial commit: add admissions example project`
+2. In the bottom-left, write a commit message: `Initial commit`
 3. Click **Commit to main**
 
 ### Command line
 
 ```bash
 git add .
-git commit -m "Initial commit: add admissions example project"
+git commit -m "Initial commit"
 ```
 
 :::
@@ -206,12 +203,22 @@ Your repository only exists on your computer right now. In this exercise you'll 
 
 ### Step 1: Create a new repository on GitHub
 
+::: {.panel-tabset}
+
+### GitHub Desktop
+
+Skip this step — GitHub Desktop will create the remote repository for you automatically in Step 2.
+
+### Command line
+
 1. Go to [github.com](https://github.com) and sign in
 2. Click the **+** icon (top right) → **New repository**
 3. Name it `admissions-example`
-4. Set visibility to **Private** — the data folder is in the project even though `.gitignore` excludes it from commits
+4. Set visibility to **Private** — the data folder exists locally on your machine, and while `.gitignore` prevents it from being pushed to GitHub, Private is safer while you're learning
 5. **Do not** tick "Add a README", "Add .gitignore", or "Choose a licence" — your local repo already has all of this
 6. Click **Create repository**
+
+:::
 
 ### Step 2: Connect your local repo and push
 
@@ -308,119 +315,38 @@ Refresh your repository page on GitHub. The new commit should appear at the top 
 
 ✅ **Checkpoint:** Edit → commit → push. That's the everyday loop.
 
+::: {.callout-note}
+## `git switch` vs `git checkout`
+These exercises use `git switch`, the modern syntax for working with branches (introduced in Git 2.23). Older tutorials and Stack Overflow answers often use `git checkout` for the same operations:
+
+| Modern | Old |
+|---|---|
+| `git switch -c branch-name` | `git checkout -b branch-name` |
+| `git switch branch-name` | `git checkout branch-name` |
+
+Both work — if you see `git checkout` elsewhere, that's why.
+:::
+
 ::: {.callout-tip collapse="true"}
 ## Stretch task: try a branch
 
 ```bash
-git checkout -b my-experiment
+git switch -c my-experiment
 ```
 
 Make a commit on the branch, then switch back to `main`:
 
 ```bash
-git checkout main
+git switch main
 ```
 
 Notice that your change has "disappeared" from the files — it's on the branch, not on `main`. Switch back to see it return:
 
 ```bash
-git checkout my-experiment
+git switch my-experiment
 ```
 
 In GitHub Desktop: **Branch → New Branch**, make a commit, then switch back via the branch menu at the top.
-:::
-
----
-
-## Exercise 4 · Branches *(stretch — if you have time)* {#ex4}
-
-This exercise is for people who've finished Exercises 1–3 and want to go further. There's no pressure to complete it before the collaborative exercise.
-
-Branches let you try something out without touching your working code. You create a branch, make changes there, and — when you're happy — merge it back into `main`.
-
-### Step 1: Create a branch
-
-::: {.panel-tabset}
-
-### GitHub Desktop
-
-Go to **Branch → New Branch**. Name it `my-experiment` and click **Create Branch**. GitHub Desktop will switch you to the new branch automatically.
-
-### Command line
-
-```bash
-git checkout -b my-experiment
-```
-
-:::
-
-### Step 2: Make a change and commit
-
-Make any small edit to a file — add a comment to a script, add a line to `README.md`, anything.
-
-::: {.panel-tabset}
-
-### GitHub Desktop
-
-Commit the change as normal — write a message and click **Commit to my-experiment**.
-
-### Command line
-
-```bash
-git add .
-git commit -m "Experiment with a change"
-```
-
-:::
-
-### Step 3: Switch back to main
-
-::: {.panel-tabset}
-
-### GitHub Desktop
-
-Use the branch menu at the top of the window to switch back to **main**.
-
-### Command line
-
-```bash
-git checkout main
-```
-
-:::
-
-Notice that your change has disappeared from the files. It's safe on the branch — it just isn't on `main` yet.
-
-### Step 4: Merge the branch into main
-
-::: {.panel-tabset}
-
-### GitHub Desktop
-
-Go to **Branch → Merge into Current Branch**, select `my-experiment`, and click **Merge**.
-
-### Command line
-
-```bash
-git merge my-experiment
-```
-
-:::
-
-Your change is now on `main`. Check the history — you'll see the commit from the branch has landed there.
-
-✅ **That's the branch workflow:** create → commit → switch back → merge. On a real project you'd do this whenever you want to try something without risking your working code.
-
-::: {.callout-tip collapse="true"}
-## Tidying up
-
-Once a branch is merged you can delete it — it's done its job.
-
-```bash
-git branch -d my-experiment
-```
-
-In GitHub Desktop: **Branch → Delete Branch**.
 :::
 
 ---
@@ -518,4 +444,97 @@ Click **Refresh** in the repository list, or paste the URL manually via **File �
 
 **"Authentication failed" when pushing**
 Flag a helper — this usually means GitHub Desktop isn't signed in, or the CLI needs `gh auth login`.
+:::
+
+---
+
+## Exercise 4 · Branches *(go further)* {#ex4}
+
+This exercise is for people who want to go further. Work through it at your own pace after the collaborative exercise.
+
+Branches let you try something out without touching your working code. You create a branch, make changes there, and — when you're happy — merge it back into `main`.
+
+### Step 1: Create a branch
+
+::: {.panel-tabset}
+
+### GitHub Desktop
+
+Go to **Branch → New Branch**. Name it `my-experiment` and click **Create Branch**. GitHub Desktop will switch you to the new branch automatically.
+
+### Command line
+
+```bash
+git switch -c my-experiment
+```
+
+:::
+
+### Step 2: Make a change and commit
+
+Make any small edit to a file — add a comment to a script, add a line to `README.md`, anything.
+
+::: {.panel-tabset}
+
+### GitHub Desktop
+
+Commit the change as normal — write a message and click **Commit to my-experiment**.
+
+### Command line
+
+```bash
+git add .
+git commit -m "Experiment with a change"
+```
+
+:::
+
+### Step 3: Switch back to main
+
+::: {.panel-tabset}
+
+### GitHub Desktop
+
+Use the branch menu at the top of the window to switch back to **main**.
+
+### Command line
+
+```bash
+git switch main
+```
+
+:::
+
+Notice that your change has disappeared from the files. It's safe on the branch — it just isn't on `main` yet.
+
+### Step 4: Merge the branch into main
+
+::: {.panel-tabset}
+
+### GitHub Desktop
+
+Go to **Branch → Merge into Current Branch**, select `my-experiment`, and click **Merge**.
+
+### Command line
+
+```bash
+git merge my-experiment
+```
+
+:::
+
+Your change is now on `main`. Check the history — you'll see the commit from the branch has landed there.
+
+✅ **That's the branch workflow:** create → commit → switch back → merge. On a real project you'd do this whenever you want to try something without risking your working code.
+
+::: {.callout-tip collapse="true"}
+## Tidying up
+
+Once a branch is merged you can delete it — it's done its job.
+
+```bash
+git branch -d my-experiment
+```
+
+In GitHub Desktop: **Branch → Delete Branch**.
 :::

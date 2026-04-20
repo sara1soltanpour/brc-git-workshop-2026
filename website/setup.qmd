@@ -88,14 +88,16 @@ GitHub Desktop gives you a visual interface for Git — you can see your changes
 1. Download from [desktop.github.com](https://desktop.github.com) and run the installer
 2. Open GitHub Desktop and sign in with your GitHub account
 
-::: {.callout-note collapse="true"}
+::: {#github-cli .callout-note collapse="true"}
 ## Command line users
 If you're comfortable in the terminal and prefer to use Git from the command line, that's fine — both paths are covered in the exercises. If you plan to follow the command-line route in the exercises, install the **GitHub CLI** (`gh`) as well, because we'll use it for GitHub authentication:
 
 - Mac: `brew install gh`
 - Windows: download from [cli.github.com](https://cli.github.com)
 
-Then run `gh auth login` to authenticate Git and GitHub on your machine.
+Then run `gh auth login` to authenticate Git and GitHub on your machine. When prompted, you can choose either HTTPS or SSH for Git operations.
+
+If you want to use SSH, GitHub has a step-by-step guide here: [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 :::
 
 ---
