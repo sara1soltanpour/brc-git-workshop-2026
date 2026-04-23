@@ -150,13 +150,15 @@ Then, back in GitHub Desktop:
 
 3. The files you copied appear in the **Changes** panel on the left
 4. Right-click `data` in the list and choose **Ignore Folder (Add to .gitignore)** — GitHub Desktop writes a `.gitignore` file and `data/` disappears from the list
-5. Review the remaining files: you should see `README.md`, `scripts/`, and `.gitignore`
-6. In the bottom-left, write a commit message: `Initial commit`
-7. Click **Commit to main**
+5. Right-click `outputs` in the list and choose **Ignore Folder (Add to .gitignore)** — `outputs/` disappears from the list too
+6. Review the remaining files: you should see `README.md`, `scripts/`, and `.gitignore`
+7. In the bottom-left, write a commit message: `Initial commit`
+8. Click **Commit to main**
 
 ### Command line
 
 ```bash
+echo -e "data/\noutputs/" > .gitignore
 git add README.md scripts/ .gitignore
 git commit -m "Initial commit"
 ```

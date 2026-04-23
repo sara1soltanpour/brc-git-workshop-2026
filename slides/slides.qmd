@@ -369,7 +369,7 @@ A saved snapshot of your project at a point in time, with a message, author, and
 <div class="workflow-definition">
   <div class="workflow-definition-kicker">Step 6</div>
   <div class="workflow-definition-title">Select what belongs in the next version</div>
-  <p>This is staging again — the same <code>git add</code> command as step 2. You are choosing which edits should go into the next commit.</p>
+  <p>This is staging again. Choose which edits should go into the next commit.</p>
 </div>
 :::
 ::::
@@ -796,14 +796,6 @@ Git lets us have multiple branches:
 
 ---
 
-## Why use branches?
-
-- They let you try something new without changing the version you already trust
-- They let you prepare work for review before it reaches `main`
-- In collaborative projects, they let people work on different things without all editing the same branch
-
----
-
 ## How? First, create and switch to a new branch
 
 On the command line, use `git switch -c` to create a new branch and move to it
@@ -876,14 +868,6 @@ git switch main
 
 ---
 
-![](images/flow-1.png){fig-align="center"}
-
----
-
-::: {style="text-align: center;"}
-Everyone has a local copy. Push and pull to the remote.
-:::
-
 ![](images/collab-1.png){fig-align="center"}
 
 ---
@@ -893,6 +877,14 @@ Everyone has a local copy. Push and pull to the remote.
 :::
 
 ![](images/collab-2.png){fig-align="center"}
+
+---
+
+::: {style="text-align: center;"}
+Everyone has a local copy. Push and pull to the remote.
+:::
+
+![](images/collab-3.png){fig-align="center"}
 
 ---
 
@@ -962,13 +954,26 @@ The PR allows others to [review and approve]{.alert} your code, or suggest chang
 
 ---
 
+## Forks: your own copy of a repository
 
-## Forks let you contribute without write access
+A **fork** is your own copy of someone else's repository — useful when you don't have write access to the original.
 
-- A fork is your own GitHub copy of someone else's repository
-- You only need this when you cannot push directly to the original repository
-- You clone your fork, make the change, push to your fork, and then open a pull request back to the original repository
-- This is the workflow we will use in the collaborative exercise
+::: {style="border-left: 4px solid rgba(45,53,97,0.25); background: rgba(45,53,97,0.04); padding: 0.5em 0.8em 0.5em 1em; margin: 0.5em 0;"}
+1. Fork the repository on GitHub
+2. Clone your fork from GitHub to your local machine
+3. Make your changes, commit, and push back to your fork
+4. Open a pull request to the original repository
+:::
+
+We'll try this in the collaborative exercise.
+
+---
+
+![](images/fork-demo-1.png){width="100%" fig-align="center"}
+
+---
+
+![](images/fork-demo-2.png){width="100%" fig-align="center"}
 
 ---
 

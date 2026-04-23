@@ -1,0 +1,477 @@
+patient_id,admission_date,age,sex,diagnosis_group,prior_admissions,length_of_stay_days,discharge_type,medication_prescribed,readmitted_30d,predicted_prob
+P0001,2022-02-17,32,M,Neurodevelopmental,4,32,Self-discharge,Antipsychotic,1,0.5265267812617572
+P0002,2021-05-17,72,M,Affective,1,28,Self-discharge,None,1,0.17323475986745807
+P0003,2021-11-30,71,M,Personality,9,36,Planned,Antipsychotic,0,0.28489514119606785
+P0004,2021-05-21,61,M,Affective,6,13,Transfer,Mood stabiliser,1,0.17956438055947213
+P0005,2019-01-29,33,F,Affective,8,38,Transfer,None,0,0.3352715987055273
+P0006,2021-07-25,55,M,Psychosis,1,49,Transfer,Anxiolytic,0,0.14756072420091004
+P0007,2022-02-02,52,F,Neurodevelopmental,10,10,Self-discharge,None,1,0.688310201780229
+P0008,2020-04-01,46,F,Anxiety,0,30,Planned,Mood stabiliser,0,0.15502595956196258
+P0009,2019-06-27,58,M,Neurodevelopmental,7,51,Deceased,Antipsychotic,1,0.3308942865237031
+P0010,2020-10-07,72,F,Personality,5,29,Self-discharge,None,1,0.4277579241294753
+P0011,2021-05-05,38,F,Personality,9,9,Deceased,Anxiolytic,0,0.4430447261420978
+P0013,2022-09-20,51,F,Psychosis,8,117,Planned,Mood stabiliser,0,0.31864570216744287
+P0014,2018-02-09,38,F,Substance,0,77,Transfer,Anxiolytic,1,0.1470278567229608
+P0015,2022-02-07,57,M,Affective,3,113,Planned,Antidepressant,0,0.11723408252140194
+P0016,2020-12-16,34,M,Neurodevelopmental,7,71,Self-discharge,Mood stabiliser,0,0.6362100537018166
+P0017,2020-11-25,43,F,Anxiety,6,86,Transfer,Anxiolytic,0,0.3909320321211743
+P0018,2018-05-26,20,F,Substance,3,76,Self-discharge,Antidepressant,0,0.41919563974250457
+P0019,2019-03-15,22,M,Affective,8,31,Transfer,Anxiolytic,0,0.33256563830645963
+P0020,2021-09-11,78,M,Personality,6,25,Planned,Antidepressant,0,0.19019774206662027
+P0021,2022-01-31,24,F,Neurodevelopmental,10,13,Planned,Anxiolytic,1,0.5254777148268097
+P0022,2020-08-05,42,F,Personality,2,55,Self-discharge,Mood stabiliser,1,0.4321682894219118
+P0023,2022-03-24,30,M,Neurodevelopmental,8,108,Planned,Antidepressant,0,0.43625725626059503
+P0024,2019-06-28,45,F,Affective,2,49,Planned,Anxiolytic,0,0.12432513703946961
+P0025,2022-02-15,80,M,Psychosis,4,28,Planned,None,0,0.1206455378105554
+P0026,2018-05-21,79,F,Substance,2,8,Planned,Antipsychotic,0,0.08196206324406319
+P0027,2018-06-17,33,F,Psychosis,9,77,Planned,None,1,0.39071980300988524
+P0028,2018-09-26,51,M,Neurodevelopmental,5,31,Transfer,Anxiolytic,0,0.3135307620381684
+P0029,2021-01-06,27,M,Personality,9,73,Planned,Antidepressant,1,0.4301230492157553
+P0030,2021-12-11,26,M,Anxiety,4,21,Deceased,None,0,0.29249283650436875
+P0031,2019-06-26,85,M,Neurodevelopmental,8,39,Planned,Antipsychotic,1,0.25156960015666524
+P0032,2021-11-08,52,M,Substance,3,92,Transfer,Antipsychotic,0,0.16139221650318916
+P0033,2018-01-08,24,M,Neurodevelopmental,6,107,Transfer,Antidepressant,1,0.4577237244619882
+P0034,2018-01-20,38,F,Personality,8,91,Deceased,None,1,0.43989721914346264
+P0035,2018-09-19,37,F,Affective,5,75,Self-discharge,Anxiolytic,1,0.42014150046750426
+P0036,2022-05-17,23,M,Psychosis,10,32,Planned,Mood stabiliser,0,0.4039960623323812
+P0037,2019-01-03,37,M,Psychosis,2,113,Deceased,Antidepressant,0,0.19538858514147517
+P0038,2019-04-01,49,M,Psychosis,1,49,Planned,Anxiolytic,0,0.12315887310972383
+P0039,2019-07-25,47,M,Affective,10,25,Deceased,Mood stabiliser,0,0.2900211795965469
+P0040,2022-12-02,83,F,Neurodevelopmental,8,43,Planned,Antidepressant,0,0.2868236014637441
+P0041,2020-06-12,51,M,Affective,9,56,Transfer,Mood stabiliser,0,0.2886977002841776
+P0042,2020-06-02,42,M,Affective,6,1,Self-discharge,Mood stabiliser,1,0.3752114473914185
+P0043,2019-10-31,58,F,Affective,4,65,Transfer,Anxiolytic,0,0.17775029261686334
+P0045,2020-06-23,54,M,Personality,9,78,Transfer,Anxiolytic,0,0.4152594028895438
+P0046,2022-08-04,39,F,Affective,4,66,Transfer,Antidepressant,0,0.21773411097715237
+P0047,2022-10-07,43,M,Affective,0,32,Deceased,None,0,0.09728603113732819
+P0049,2021-02-15,31,F,Psychosis,2,103,Deceased,Antidepressant,0,0.23063196956318882
+P0050,2021-06-08,77,F,Substance,8,77,Transfer,Anxiolytic,0,0.23925376128984735
+P0051,2022-09-17,75,M,Neurodevelopmental,7,58,Transfer,Antipsychotic,0,0.3143283344460512
+P0052,2019-07-11,48,M,Personality,1,92,Transfer,Antipsychotic,0,0.2045286166763897
+P0053,2020-04-29,37,M,Personality,2,91,Self-discharge,Antidepressant,0,0.4260510839879467
+P0054,2020-02-19,44,F,Personality,9,90,Planned,None,0,0.41750149128673
+P0055,2019-03-26,67,F,Substance,8,103,Self-discharge,Anxiolytic,1,0.44828569280912073
+P0056,2020-12-29,69,F,Psychosis,7,118,Self-discharge,None,1,0.48225952210452777
+P0057,2018-04-13,21,M,Neurodevelopmental,6,18,Deceased,Antipsychotic,1,0.39995847551230135
+P0058,2018-02-09,61,F,Anxiety,6,33,Planned,Anxiolytic,0,0.2589031957853247
+P0059,2019-02-13,46,F,Affective,10,6,Planned,Antipsychotic,0,0.2860000810917162
+P0060,2022-04-20,78,F,Affective,9,28,Deceased,Mood stabiliser,0,0.21528811933499484
+P0061,2021-03-25,32,M,Anxiety,1,75,Planned,Mood stabiliser,0,0.19028565578424173
+P0062,2022-10-08,43,M,Substance,10,32,Planned,Mood stabiliser,0,0.2823725049737544
+P0064,2020-06-10,80,M,Personality,5,82,Deceased,Antipsychotic,1,0.20158741619987938
+P0065,2022-08-29,79,F,Personality,9,35,Transfer,Antipsychotic,0,0.3560520366631153
+P0066,2020-10-09,77,F,Substance,10,49,Transfer,Antidepressant,0,0.28478382239236927
+P0067,2018-01-21,51,M,Anxiety,9,90,Transfer,None,0,0.43268902556751127
+P0068,2020-07-06,70,F,Substance,3,89,Deceased,Anxiolytic,0,0.132174847493184
+P0069,2020-12-23,49,M,Neurodevelopmental,9,48,Deceased,None,1,0.42297817470206356
+P0070,2018-09-05,63,F,Personality,4,40,Transfer,Antipsychotic,0,0.255144095577614
+P0071,2022-09-02,41,M,Psychosis,7,36,Transfer,Antidepressant,1,0.3205661506401291
+P0072,2021-02-07,19,F,Substance,2,36,Planned,Antidepressant,0,0.17087882557510584
+P0073,2020-06-21,80,M,Affective,9,37,Deceased,Anxiolytic,0,0.18959780421534808
+P0074,2021-07-13,79,M,Affective,6,63,Planned,None,0,0.12257778212596986
+P0075,2021-05-05,56,M,Psychosis,1,72,Deceased,None,0,0.13358670851237414
+P0076,2021-06-25,75,F,Anxiety,9,55,Transfer,None,1,0.37858286634553956
+P0078,2019-08-14,75,F,Substance,7,38,Planned,Antipsychotic,0,0.16539831523594492
+P0079,2018-08-24,47,M,Neurodevelopmental,9,85,Self-discharge,Anxiolytic,1,0.6655161866921285
+P0080,2022-03-14,36,M,Affective,2,102,Transfer,None,0,0.16664841250820703
+P0081,2018-06-14,77,F,Anxiety,6,35,Deceased,Anxiolytic,0,0.24788717027847385
+P0082,2021-03-26,50,M,Affective,3,87,Planned,Mood stabiliser,1,0.12275855899354217
+P0083,2020-08-20,74,M,Psychosis,9,56,Deceased,Antidepressant,1,0.265925528762061
+P0084,2018-03-17,38,M,Personality,7,37,Deceased,None,0,0.35171660807499155
+P0085,2018-04-22,69,F,Affective,10,112,Deceased,Anxiolytic,1,0.2880680021563037
+P0086,2020-06-16,74,M,Psychosis,4,71,Self-discharge,Mood stabiliser,0,0.315306377976653
+P0087,2020-04-15,48,F,Psychosis,4,71,Planned,None,1,0.20587460728958312
+P0088,2021-12-15,77,M,Neurodevelopmental,2,64,Transfer,None,0,0.18314078946363754
+P0089,2020-11-06,49,F,Substance,2,50,Self-discharge,None,0,0.29124962368123214
+P0090,2022-01-26,71,M,Substance,4,106,Planned,Mood stabiliser,0,0.11648550388028661
+P0091,2021-02-04,80,M,Personality,8,62,Transfer,Mood stabiliser,0,0.29935341781622615
+P0092,2018-03-31,42,F,Psychosis,9,50,Self-discharge,Anxiolytic,1,0.6130174968044129
+P0093,2018-09-16,66,F,Neurodevelopmental,10,20,Deceased,Antidepressant,0,0.42745427766220473
+P0094,2022-11-19,74,M,Substance,7,2,Self-discharge,Anxiolytic,0,0.32239707373838533
+P0095,2022-10-12,51,M,Substance,6,84,Planned,Mood stabiliser,0,0.17997453722572862
+P0096,2019-04-11,80,F,Affective,9,9,Self-discharge,Mood stabiliser,0,0.39309510486024263
+P0097,2019-10-27,30,F,Psychosis,4,116,Planned,Antidepressant,0,0.26069043892229127
+P0098,2018-12-25,36,M,Substance,6,73,Self-discharge,Antipsychotic,1,0.4328666724433428
+P0100,2021-04-18,54,F,Substance,2,10,Deceased,Mood stabiliser,0,0.12651165269249426
+P0101,2019-05-01,76,M,Psychosis,6,110,Deceased,Antidepressant,0,0.20146661924877957
+P0102,2022-11-07,55,M,Neurodevelopmental,6,36,Planned,None,0,0.2733864498616752
+P0103,2021-07-27,81,M,Psychosis,9,103,Transfer,Antipsychotic,1,0.28964205634803175
+P0104,2022-06-04,35,F,Affective,10,83,Planned,Mood stabiliser,1,0.3429123692062095
+P0105,2022-05-30,29,M,Anxiety,6,23,Self-discharge,Antipsychotic,0,0.5681270254330604
+P0106,2022-07-06,52,M,Anxiety,7,104,Transfer,Mood stabiliser,1,0.36779506180703947
+P0107,2022-06-08,46,F,Neurodevelopmental,10,51,Transfer,Antidepressant,1,0.5394773212155608
+P0108,2018-08-10,65,F,Neurodevelopmental,10,34,Deceased,Mood stabiliser,0,0.43601119287230816
+P0109,2021-08-22,59,F,Psychosis,10,9,Deceased,Mood stabiliser,1,0.3535654160004815
+P0110,2020-07-18,56,F,Affective,1,31,Self-discharge,Anxiolytic,0,0.23148763747770246
+P0111,2022-09-04,71,F,Neurodevelopmental,2,114,Deceased,Antidepressant,0,0.2091795199857271
+P0112,2022-10-18,22,F,Anxiety,3,57,Deceased,Antipsychotic,0,0.31700215901099316
+P0113,2018-07-07,63,M,Personality,4,25,Planned,Anxiolytic,0,0.17804512844435885
+P0114,2022-08-27,20,M,Anxiety,3,17,Self-discharge,Antidepressant,0,0.49126721162552905
+P0115,2018-09-24,47,M,Psychosis,9,1,Transfer,Antipsychotic,0,0.3531080869919989
+P0116,2019-10-26,21,M,Affective,5,102,Self-discharge,None,1,0.4462938544570657
+P0117,2020-11-17,71,F,Affective,1,61,Deceased,Mood stabiliser,0,0.09391970501325113
+P0118,2018-05-05,23,F,Neurodevelopmental,8,39,Deceased,Antidepressant,0,0.5066022456814734
+P0119,2021-05-30,31,F,Neurodevelopmental,7,10,Planned,Mood stabiliser,1,0.3979431566466744
+P0120,2021-05-24,59,F,Substance,8,38,Deceased,None,0,0.24652356105489387
+P0121,2020-03-27,45,F,Personality,3,53,Transfer,Anxiolytic,0,0.27830335663451106
+P0122,2018-07-06,50,M,Psychosis,10,119,Deceased,Antidepressant,0,0.38674537716206764
+P0123,2020-04-21,65,M,Substance,0,76,Transfer,Antidepressant,0,0.094201238403053
+P0124,2020-11-05,24,M,Substance,4,46,Planned,None,1,0.1827871401034304
+P0125,2019-04-09,31,M,Substance,5,15,Transfer,None,0,0.22967481664252948
+P0126,2021-12-10,21,F,Neurodevelopmental,4,4,Self-discharge,Mood stabiliser,0,0.5878509853153001
+P0127,2022-02-26,41,M,Substance,10,52,Planned,Antipsychotic,0,0.2941439899644916
+P0128,2019-10-01,45,F,Personality,7,44,Self-discharge,Mood stabiliser,0,0.5910725989447272
+P0129,2019-07-12,28,M,Psychosis,2,97,Planned,Antidepressant,0,0.18673936818801987
+P0130,2018-08-16,71,M,Psychosis,8,15,Transfer,Anxiolytic,1,0.26102126337991594
+P0131,2019-02-23,57,M,Psychosis,6,77,Planned,Antidepressant,0,0.2096210109970239
+P0132,2018-12-26,50,M,Anxiety,1,1,Deceased,Anxiolytic,1,0.16105437595105845
+P0133,2018-06-09,63,M,Personality,0,56,Planned,Anxiolytic,0,0.11504998824461196
+P0134,2022-06-30,71,M,Affective,6,3,Transfer,Antipsychotic,0,0.15882714815773907
+P0135,2020-03-31,64,M,Personality,1,32,Deceased,None,0,0.14176709974596666
+P0136,2020-11-10,61,M,Anxiety,2,10,Planned,None,0,0.1427667551765353
+P0137,2021-05-18,36,M,Affective,2,33,Self-discharge,Antipsychotic,1,0.2809877998085774
+P0138,2018-11-06,81,F,Substance,9,58,Transfer,Mood stabiliser,0,0.24984607527246716
+P0139,2020-08-03,53,F,Affective,5,65,Planned,Mood stabiliser,0,0.16599861647858907
+P0140,2021-04-03,27,F,Affective,9,77,Deceased,Anxiolytic,0,0.3674271675153163
+P0141,2018-11-05,75,F,Neurodevelopmental,3,42,Deceased,None,0,0.20513125968636792
+P0142,2019-05-23,61,F,Affective,8,83,Self-discharge,Antidepressant,0,0.44812136662761776
+P0143,2021-10-22,38,M,Anxiety,4,50,Deceased,Mood stabiliser,0,0.2695127970867627
+P0144,2019-06-01,26,M,Affective,8,87,Deceased,Mood stabiliser,0,0.3098191457748354
+P0145,2019-09-28,37,M,Affective,9,85,Self-discharge,Mood stabiliser,0,0.5262215989188862
+P0146,2021-10-04,28,M,Substance,6,83,Transfer,Antipsychotic,0,0.28380358996103566
+P0147,2020-01-13,85,M,Neurodevelopmental,10,55,Transfer,Antidepressant,1,0.3780210436914799
+P0148,2022-09-26,80,M,Psychosis,2,20,Planned,Mood stabiliser,0,0.09296621646993747
+P0149,2020-02-11,85,M,Neurodevelopmental,5,113,Self-discharge,None,1,0.41834348908962343
+P0150,2020-06-28,39,F,Personality,0,53,Transfer,Antipsychotic,0,0.21544311162539104
+P0151,2020-01-24,47,F,Psychosis,4,104,Deceased,Antipsychotic,0,0.24314798478478833
+P0152,2022-06-29,54,F,Substance,8,54,Self-discharge,Antipsychotic,0,0.4721463057437966
+P0153,2018-06-21,79,M,Substance,1,92,Planned,Mood stabiliser,0,0.0709346163076695
+P0154,2018-02-24,36,F,Affective,3,105,Deceased,Mood stabiliser,0,0.18897995836521425
+P0155,2022-09-15,67,M,Anxiety,3,4,Transfer,Antidepressant,0,0.18951369626401246
+P0156,2021-06-14,22,M,Personality,2,98,Deceased,Anxiolytic,1,0.26821614677511774
+P0157,2022-05-09,37,F,Neurodevelopmental,9,68,Deceased,Antidepressant,1,0.506449292854228
+P0158,2021-05-07,71,F,Substance,7,9,Planned,Anxiolytic,0,0.16650851383413084
+P0159,2021-03-14,36,M,Personality,0,79,Transfer,Antipsychotic,0,0.20435327386766625
+P0160,2022-11-24,64,M,Substance,8,65,Planned,Anxiolytic,0,0.19177024352247946
+P0161,2019-05-09,50,F,Affective,5,101,Planned,Mood stabiliser,0,0.1796233772218642
+P0162,2022-08-28,60,M,Affective,5,70,Transfer,Antipsychotic,0,0.1740027333333525
+P0163,2018-03-31,41,M,Affective,7,5,Transfer,Antipsychotic,0,0.2445966917584093
+P0164,2022-03-23,57,F,Personality,8,61,Transfer,Antidepressant,0,0.40105352396282795
+P0165,2022-12-27,24,F,Anxiety,4,16,Transfer,Anxiolytic,0,0.3589960041010127
+P0166,2022-01-29,61,M,Personality,7,48,Transfer,Antidepressant,0,0.3185469714867433
+P0167,2021-09-15,41,F,Anxiety,5,14,Planned,Mood stabiliser,1,0.27762567967258106
+P0168,2021-06-13,39,F,Personality,5,58,Planned,Mood stabiliser,0,0.2942335960113957
+P0169,2022-06-29,25,M,Neurodevelopmental,10,52,Transfer,None,0,0.5721570921678606
+P0170,2020-02-24,74,M,Psychosis,1,31,Transfer,Mood stabiliser,0,0.11579112564904019
+P0171,2018-10-09,75,M,Anxiety,7,98,Planned,None,0,0.24170314550461683
+P0172,2018-08-30,49,M,Affective,2,64,Deceased,None,0,0.12149635556173428
+P0173,2020-07-14,54,F,Personality,3,16,Self-discharge,Antidepressant,1,0.41280650365923627
+P0174,2022-10-10,58,F,Anxiety,1,71,Transfer,Mood stabiliser,0,0.20375224962294136
+P0176,2019-09-26,65,F,Substance,2,79,Planned,Antidepressant,0,0.10706734641400546
+P0177,2020-07-10,70,F,Substance,1,17,Transfer,Antidepressant,0,0.10580034358868454
+P0178,2020-11-27,41,M,Personality,8,117,Planned,Antidepressant,1,0.36865469109387355
+P0179,2019-02-07,46,M,Substance,4,109,Planned,Mood stabiliser,0,0.15564739391662066
+P0180,2021-04-04,56,F,Substance,1,65,Self-discharge,None,1,0.2500618599349109
+P0181,2019-06-27,61,F,Affective,0,11,Planned,None,0,0.07574250192372192
+P0182,2019-05-17,21,F,Neurodevelopmental,8,38,Transfer,Anxiolytic,0,0.5472124993678783
+P0183,2020-08-09,27,F,Affective,2,57,Deceased,Anxiolytic,1,0.1748643501805999
+P0184,2021-02-24,58,F,Anxiety,6,17,Transfer,None,1,0.3211586552628624
+P0185,2022-11-05,75,M,Psychosis,1,7,Transfer,Anxiolytic,0,0.11073512325983068
+P0186,2020-11-20,38,M,Substance,5,25,Self-discharge,Anxiolytic,0,0.3750809659891744
+P0187,2019-12-24,29,F,Substance,7,31,Self-discharge,None,1,0.5109466682475691
+P0188,2018-10-02,78,M,Substance,0,109,Planned,Anxiolytic,0,0.06461455506507476
+P0189,2021-02-07,64,M,Personality,0,73,Self-discharge,Mood stabiliser,0,0.27647233942709076
+P0190,2020-03-17,53,F,Neurodevelopmental,9,16,Self-discharge,Antidepressant,1,0.6567115909723583
+P0191,2018-03-24,64,M,Psychosis,9,66,Deceased,None,1,0.29572995712708305
+P0192,2021-06-09,78,F,Personality,2,78,Self-discharge,Mood stabiliser,0,0.3288519362820838
+P0194,2020-08-29,32,F,Substance,4,102,Planned,None,1,0.20262859935195132
+P0195,2021-07-12,47,F,Affective,9,62,Self-discharge,None,0,0.5209777111855015
+P0196,2019-10-05,49,M,Substance,1,25,Planned,Anxiolytic,0,0.09283998261993508
+P0197,2019-03-01,82,F,Personality,0,91,Self-discharge,None,0,0.26397857192706575
+P0198,2019-12-27,66,M,Psychosis,7,117,Transfer,None,0,0.27760198274990633
+P0199,2019-09-04,51,F,Personality,3,32,Transfer,None,0,0.2564112667690702
+P0200,2021-02-21,54,F,Psychosis,7,41,Deceased,Mood stabiliser,0,0.2876858902953324
+P0201,2022-05-03,33,F,Neurodevelopmental,8,49,Deceased,Mood stabiliser,0,0.4774331606487222
+P0202,2019-02-18,28,M,Personality,10,33,Deceased,Antipsychotic,0,0.48334954170021016
+P0203,2018-04-14,52,M,Affective,9,95,Self-discharge,Antipsychotic,0,0.4805445516605801
+P0205,2019-10-20,38,F,Neurodevelopmental,7,62,Self-discharge,Mood stabiliser,1,0.654507683441495
+P0206,2022-12-12,47,F,Neurodevelopmental,0,117,Self-discharge,Anxiolytic,0,0.4079810133729
+P0207,2019-09-04,68,F,Psychosis,4,113,Planned,Antidepressant,0,0.175170227718432
+P0208,2022-10-09,54,F,Neurodevelopmental,8,68,Deceased,Antipsychotic,0,0.41615563980726195
+P0209,2018-01-29,60,M,Neurodevelopmental,7,83,Transfer,Antipsychotic,0,0.36749641332864985
+P0210,2020-11-21,42,M,Substance,10,115,Deceased,Anxiolytic,1,0.34504371234867803
+P0211,2019-04-28,35,F,Anxiety,3,1,Transfer,Anxiolytic,0,0.29152737330207146
+P0212,2021-09-29,19,M,Neurodevelopmental,5,89,Self-discharge,Antidepressant,1,0.6238390617844698
+P0213,2021-06-12,82,F,Anxiety,1,82,Transfer,Mood stabiliser,0,0.1593207616333355
+P0214,2022-07-01,76,F,Substance,5,54,Deceased,None,0,0.1498091883945276
+P0215,2021-03-01,28,F,Personality,8,91,Transfer,Antidepressant,1,0.507184224748971
+P0216,2020-06-23,43,F,Substance,2,22,Transfer,None,1,0.16382248452896617
+P0217,2020-04-30,29,F,Personality,0,59,Self-discharge,None,0,0.40752979972352865
+P0218,2021-03-30,57,F,Affective,6,33,Planned,Antipsychotic,1,0.171217259302418
+P0219,2022-04-24,25,M,Personality,0,37,Deceased,Antipsychotic,1,0.19513899465007947
+P0220,2018-06-14,71,M,Personality,7,112,Deceased,Anxiolytic,0,0.282566144697663
+P0222,2018-11-14,72,F,Personality,3,32,Deceased,Mood stabiliser,0,0.18535891990880193
+P0223,2019-02-27,32,M,Neurodevelopmental,6,79,Planned,Antipsychotic,1,0.3527651208399699
+P0224,2021-01-10,24,M,Neurodevelopmental,0,52,Deceased,Antipsychotic,0,0.2261092803072298
+P0225,2019-09-11,82,M,Psychosis,9,41,Transfer,Antipsychotic,0,0.2677129187210228
+P0226,2021-02-12,70,M,Anxiety,0,72,Self-discharge,Anxiolytic,0,0.2631324793296199
+P0227,2020-02-10,66,F,Anxiety,6,53,Self-discharge,Mood stabiliser,1,0.4945543983972047
+P0228,2021-02-25,46,M,Neurodevelopmental,2,104,Deceased,Antidepressant,0,0.23837803347410455
+P0229,2022-10-01,67,M,Anxiety,3,43,Planned,Anxiolytic,0,0.15694265856087514
+P0230,2019-01-21,24,M,Personality,10,78,Planned,Antidepressant,0,0.47643415654592375
+P0231,2019-01-25,45,F,Psychosis,5,39,Planned,Antipsychotic,0,0.2279018088374487
+P0232,2019-05-06,79,M,Neurodevelopmental,9,91,Self-discharge,Anxiolytic,0,0.5681205544237188
+P0233,2018-07-21,63,M,Anxiety,5,66,Deceased,Anxiolytic,0,0.23807748353497196
+P0234,2022-11-05,58,M,Anxiety,5,53,Planned,None,1,0.21969236959397165
+P0235,2021-03-12,71,M,Psychosis,3,43,Self-discharge,Anxiolytic,0,0.28522329482016084
+P0236,2018-12-11,61,M,Personality,10,95,Deceased,Anxiolytic,0,0.39963090067305485
+P0237,2022-08-03,80,M,Substance,10,8,Planned,Antidepressant,0,0.1886164816784938
+P0238,2020-07-22,47,M,Neurodevelopmental,2,2,Self-discharge,None,0,0.39705458147886347
+P0239,2018-02-04,79,F,Personality,0,1,Deceased,Antidepressant,0,0.11508595979279472
+P0240,2018-07-17,20,F,Neurodevelopmental,10,56,Self-discharge,Antidepressant,1,0.7835477371497409
+P0241,2020-07-29,50,M,Anxiety,6,11,Transfer,Anxiolytic,0,0.31029636187523624
+P0243,2022-10-24,39,M,Personality,6,83,Transfer,None,0,0.3646887498452736
+P0244,2018-06-02,47,M,Neurodevelopmental,9,61,Transfer,Antidepressant,0,0.4685670374921613
+P0245,2018-06-07,22,M,Anxiety,0,27,Self-discharge,Anxiolytic,1,0.3858569552266844
+P0246,2020-10-22,67,F,Substance,5,50,Self-discharge,Antidepressant,0,0.3299426151088289
+P0247,2018-03-02,47,M,Anxiety,9,99,Deceased,Mood stabiliser,0,0.4152774314610589
+P0248,2021-09-15,47,M,Substance,6,56,Self-discharge,None,1,0.39128986749562966
+P0249,2021-12-28,49,F,Affective,1,35,Self-discharge,Anxiolytic,0,0.24951590121629846
+P0250,2022-04-09,64,M,Affective,0,40,Deceased,Mood stabiliser,0,0.07634940520858362
+P0251,2018-07-03,75,F,Substance,8,53,Planned,Antidepressant,0,0.18911438396946284
+P0252,2022-01-24,59,F,Affective,4,53,Deceased,Antidepressant,0,0.15426187260517762
+P0253,2019-09-09,84,M,Neurodevelopmental,6,22,Self-discharge,Mood stabiliser,1,0.42128166154586516
+P0254,2019-05-31,53,F,Anxiety,7,101,Planned,Mood stabiliser,0,0.33156922853896265
+P0255,2019-11-12,43,F,Affective,2,39,Planned,Anxiolytic,0,0.12552456510758303
+P0256,2019-10-19,74,M,Personality,10,77,Self-discharge,Mood stabiliser,0,0.5764293729977863
+P0257,2022-05-21,40,F,Anxiety,4,95,Deceased,None,1,0.3084969134797502
+P0258,2018-02-25,68,M,Affective,9,26,Self-discharge,None,0,0.40224056707576145
+P0259,2018-10-13,74,M,Neurodevelopmental,1,105,Deceased,Anxiolytic,0,0.15844426900677214
+P0260,2020-03-31,72,F,Affective,7,77,Deceased,None,0,0.19506200857744663
+P0261,2022-04-24,71,F,Affective,5,90,Planned,Antidepressant,0,0.14020874146797788
+P0263,2020-02-06,83,F,Substance,8,75,Self-discharge,Anxiolytic,1,0.38640478409927587
+P0264,2020-05-01,82,M,Anxiety,0,62,Planned,Mood stabiliser,0,0.09372907166841704
+P0265,2020-09-16,36,M,Anxiety,5,59,Self-discharge,None,1,0.5244157142821277
+P0266,2022-10-06,75,M,Affective,4,6,Planned,Antidepressant,0,0.09255972403642586
+P0267,2020-05-23,49,F,Psychosis,8,21,Transfer,None,0,0.3557730875593869
+P0268,2022-02-19,41,M,Neurodevelopmental,10,56,Deceased,Antidepressant,0,0.4868035403354281
+P0269,2021-03-28,67,M,Neurodevelopmental,3,27,Transfer,Antidepressant,1,0.2174442155488915
+P0270,2021-08-01,59,M,Personality,1,34,Deceased,None,0,0.15039691433702063
+P0271,2021-06-12,32,M,Anxiety,7,80,Self-discharge,Mood stabiliser,0,0.613570894591399
+P0272,2020-03-06,48,M,Affective,2,48,Self-discharge,None,0,0.2544508824958205
+P0273,2018-12-08,41,F,Neurodevelopmental,8,89,Self-discharge,None,1,0.6858174036999489
+P0274,2019-02-04,75,F,Affective,5,2,Deceased,Antipsychotic,0,0.13559474396113524
+P0275,2018-12-09,81,F,Neurodevelopmental,7,54,Deceased,Anxiolytic,1,0.29800503686979085
+P0276,2022-05-18,55,M,Anxiety,3,69,Transfer,Antipsychotic,0,0.2325500462893538
+P0277,2022-08-12,83,M,Substance,1,35,Transfer,None,0,0.08127348104437195
+P0278,2022-11-27,45,F,Affective,10,97,Self-discharge,Mood stabiliser,0,0.575460316666405
+P0279,2021-07-19,29,F,Affective,3,27,Transfer,None,0,0.20641667998951171
+P0280,2021-01-08,44,M,Substance,5,69,Transfer,None,1,0.2144204874438842
+P0281,2019-07-22,52,F,Neurodevelopmental,1,18,Deceased,Antidepressant,0,0.20313572675689587
+P0282,2020-09-29,49,M,Neurodevelopmental,5,107,Self-discharge,Anxiolytic,1,0.5342198537123716
+P0283,2020-11-21,66,F,Affective,10,102,Planned,Anxiolytic,0,0.2629294256977512
+P0284,2021-07-24,76,F,Anxiety,9,1,Planned,Anxiolytic,0,0.29304519242563515
+P0285,2022-08-24,68,M,Personality,3,64,Transfer,Mood stabiliser,0,0.1999311647059416
+P0286,2018-02-03,80,M,Neurodevelopmental,0,6,Planned,Anxiolytic,0,0.10045763890258988
+P0287,2022-11-26,18,F,Psychosis,2,113,Transfer,Antipsychotic,0,0.2933237929694172
+P0288,2020-03-22,50,M,Anxiety,10,116,Self-discharge,Antidepressant,0,0.6679476345926502
+P0289,2018-06-09,72,F,Affective,1,1,Self-discharge,Anxiolytic,1,0.18879262825379287
+P0290,2021-11-22,19,M,Neurodevelopmental,5,105,Planned,Anxiolytic,1,0.3694839415473653
+P0291,2020-02-23,31,M,Anxiety,5,113,Transfer,Antipsychotic,0,0.3706657133473294
+P0292,2019-12-21,36,M,Substance,9,2,Self-discharge,Anxiolytic,0,0.5097121699853197
+P0293,2018-07-25,70,F,Neurodevelopmental,7,111,Self-discharge,Antidepressant,1,0.5723990956575381
+P0294,2019-05-24,62,F,Anxiety,2,32,Transfer,Antidepressant,0,0.2080691359574422
+P0295,2019-08-29,21,F,Anxiety,3,67,Self-discharge,Anxiolytic,0,0.5438771521343765
+P0296,2018-05-26,48,F,Personality,1,31,Deceased,None,0,0.1909367366782181
+P0297,2021-10-30,58,M,Personality,9,54,Transfer,None,1,0.39358289072352737
+P0298,2018-03-23,27,M,Substance,1,2,Transfer,Antipsychotic,0,0.1498410608059188
+P0299,2021-12-08,54,F,Neurodevelopmental,8,99,Deceased,Anxiolytic,0,0.42785247351682987
+P0300,2021-01-03,37,M,Affective,4,11,Self-discharge,Antipsychotic,1,0.33013259258606154
+P0301,2019-05-16,26,M,Neurodevelopmental,6,94,Self-discharge,Antidepressant,1,0.636610342364461
+P0302,2018-01-26,25,M,Neurodevelopmental,10,95,Self-discharge,Antidepressant,0,0.7565620861489112
+P0303,2022-03-16,62,F,Substance,4,22,Transfer,Antipsychotic,0,0.1676996870233162
+P0304,2021-12-29,21,M,Personality,4,68,Planned,Mood stabiliser,0,0.28744010480872284
+P0305,2018-11-19,83,M,Affective,7,110,Self-discharge,Mood stabiliser,1,0.3221866438730863
+P0306,2019-05-16,32,M,Neurodevelopmental,8,1,Planned,Antidepressant,1,0.3897565454633979
+P0307,2019-05-24,40,M,Substance,10,54,Self-discharge,Mood stabiliser,1,0.5513264571608112
+P0308,2019-04-03,27,F,Anxiety,1,65,Planned,Antipsychotic,0,0.22256979721968684
+P0309,2020-07-24,26,F,Anxiety,4,42,Planned,None,1,0.29854031244117313
+P0310,2020-10-07,56,F,Substance,3,60,Transfer,None,0,0.16748944170492805
+P0312,2019-02-25,60,M,Neurodevelopmental,6,109,Transfer,Antidepressant,0,0.34471127366798787
+P0313,2022-09-28,25,M,Neurodevelopmental,4,12,Planned,Antipsychotic,0,0.289616962360028
+P0314,2021-04-27,28,F,Affective,8,18,Deceased,Antidepressant,0,0.312731134275199
+P0315,2019-10-14,48,M,Anxiety,5,119,Deceased,Mood stabiliser,0,0.29256797938360424
+P0316,2020-08-12,35,F,Affective,2,14,Self-discharge,Anxiolytic,1,0.3081096774323167
+P0317,2018-11-19,44,F,Anxiety,7,34,Planned,Antidepressant,0,0.3349777654483541
+P0318,2020-03-22,23,M,Anxiety,2,12,Self-discharge,Mood stabiliser,0,0.4447390264163019
+P0319,2020-08-04,40,M,Personality,7,72,Self-discharge,Antidepressant,1,0.5820158508253952
+P0320,2021-11-06,25,M,Psychosis,3,106,Deceased,Mood stabiliser,0,0.24454351561301604
+P0321,2018-07-08,51,M,Affective,1,26,Deceased,Antipsychotic,0,0.09946516056700612
+P0322,2020-10-13,23,F,Affective,2,119,Deceased,Anxiolytic,1,0.19738163965456954
+P0323,2021-06-11,45,M,Anxiety,4,58,Self-discharge,Antidepressant,0,0.4594858177684019
+P0324,2018-10-09,70,F,Personality,0,12,Transfer,Anxiolytic,0,0.14607824884731033
+P0325,2021-01-20,49,F,Substance,0,49,Transfer,Anxiolytic,0,0.12489717440065441
+P0326,2019-03-25,59,F,Anxiety,2,4,Transfer,None,1,0.20746785315961078
+P0327,2019-05-23,78,F,Anxiety,9,30,Self-discharge,Antidepressant,0,0.5505367226199838
+P0328,2019-04-30,25,M,Substance,6,46,Self-discharge,Antipsychotic,0,0.45847006873481394
+P0329,2019-01-21,21,F,Neurodevelopmental,5,73,Self-discharge,None,0,0.6459877467204558
+P0331,2018-02-14,43,M,Anxiety,2,118,Transfer,Antidepressant,1,0.2499024727452453
+P0332,2018-07-26,32,F,Anxiety,1,48,Deceased,None,0,0.23273147514502474
+P0333,2021-11-21,73,F,Personality,10,41,Self-discharge,None,0,0.6016702027260473
+P0334,2021-12-08,40,F,Anxiety,4,17,Self-discharge,Antidepressant,0,0.496758174576787
+P0335,2018-08-02,22,M,Substance,5,118,Self-discharge,None,0,0.461308639113939
+P0336,2020-07-03,48,M,Anxiety,2,82,Planned,Mood stabiliser,1,0.18105105863828858
+P0337,2022-02-09,62,M,Affective,0,7,Deceased,Anxiolytic,0,0.07463197704747886
+P0338,2021-08-26,66,M,Substance,6,13,Deceased,None,0,0.1578297839462426
+P0339,2019-12-02,22,M,Affective,5,34,Planned,Antidepressant,1,0.19795399865215185
+P0340,2020-06-02,29,M,Substance,9,115,Deceased,Antidepressant,0,0.35236865679341794
+P0341,2021-11-28,38,M,Affective,5,27,Self-discharge,Anxiolytic,0,0.36437242602204734
+P0342,2021-01-30,54,M,Psychosis,1,7,Deceased,None,0,0.12523932860967082
+P0343,2018-07-18,72,M,Anxiety,10,81,Deceased,Antipsychotic,1,0.3633297133332584
+P0344,2020-09-28,28,F,Affective,4,101,Deceased,Anxiolytic,0,0.22838476227930796
+P0345,2018-04-02,67,M,Anxiety,6,48,Self-discharge,Anxiolytic,1,0.45276466035308405
+P0346,2021-09-30,52,F,Affective,2,97,Planned,Antidepressant,0,0.12234748307236605
+P0347,2021-11-08,47,F,Affective,6,105,Deceased,None,0,0.23447240908024802
+P0348,2021-03-15,78,M,Affective,6,116,Planned,None,0,0.1331913841710503
+P0349,2018-09-16,36,M,Personality,2,22,Self-discharge,Antipsychotic,1,0.40335564636229176
+P0350,2018-06-28,43,F,Psychosis,9,34,Transfer,Antidepressant,1,0.41224233796132304
+P0351,2020-04-28,53,F,Personality,0,101,Deceased,Antidepressant,0,0.17633643760926743
+P0352,2022-12-08,30,M,Substance,1,101,Transfer,None,0,0.164879805158395
+P0353,2020-04-05,80,F,Substance,7,5,Self-discharge,Mood stabiliser,1,0.33834130181793226
+P0354,2020-02-02,22,F,Anxiety,3,7,Deceased,Mood stabiliser,1,0.3004969356243302
+P0355,2019-09-08,53,F,Neurodevelopmental,10,13,Self-discharge,Antipsychotic,0,0.6864664993042487
+P0356,2020-06-23,52,F,Personality,9,83,Planned,Antipsychotic,1,0.38944760982415283
+P0357,2019-09-30,84,M,Affective,8,102,Self-discharge,Antidepressant,0,0.3475741183885041
+P0358,2019-05-26,85,F,Affective,2,25,Self-discharge,Antidepressant,1,0.18954022112664043
+P0359,2021-10-27,43,M,Anxiety,7,65,Deceased,Antidepressant,1,0.3495219844011051
+P0360,2022-09-12,40,F,Substance,8,45,Transfer,Antipsychotic,0,0.32803081252883604
+P0361,2021-08-18,54,M,Personality,0,21,Self-discharge,Antipsychotic,1,0.28694615737469104
+P0362,2021-05-16,83,M,Neurodevelopmental,0,61,Self-discharge,Antipsychotic,0,0.2531901581874377
+P0363,2022-10-11,57,F,Neurodevelopmental,10,36,Deceased,Anxiolytic,1,0.4629417822839242
+P0364,2021-09-18,84,F,Personality,9,14,Planned,None,0,0.2730016571575295
+P0365,2019-07-21,54,M,Neurodevelopmental,1,62,Planned,Mood stabiliser,0,0.16490766097425738
+P0366,2022-07-08,56,M,Psychosis,8,98,Self-discharge,Antidepressant,0,0.5156926467475295
+P0367,2019-06-16,58,F,Psychosis,0,84,Deceased,Mood stabiliser,0,0.13350238064389414
+P0368,2020-11-04,42,M,Neurodevelopmental,3,88,Deceased,Mood stabiliser,0,0.2701537712246069
+P0369,2022-04-12,41,M,Affective,7,17,Transfer,None,0,0.24804296506242596
+P0370,2022-06-03,29,M,Anxiety,3,96,Transfer,Anxiolytic,0,0.3082197577518367
+P0371,2022-12-27,77,M,Personality,0,111,Planned,Anxiolytic,0,0.1052531157576469
+P0372,2019-02-15,85,M,Personality,0,112,Self-discharge,Antipsychotic,0,0.23517186012850771
+P0373,2019-11-13,76,M,Anxiety,2,100,Planned,Anxiolytic,0,0.13568720772925463
+P0374,2022-04-15,18,F,Anxiety,3,98,Self-discharge,None,1,0.565516292187037
+P0375,2020-09-04,34,F,Personality,10,55,Deceased,Anxiolytic,1,0.5087114093685429
+P0376,2021-07-07,65,M,Anxiety,8,25,Planned,Antidepressant,0,0.27200621513933015
+P0377,2018-05-14,57,M,Affective,6,65,Transfer,Antipsychotic,0,0.20005118425953516
+P0378,2020-09-30,84,F,Substance,5,56,Self-discharge,Mood stabiliser,1,0.2841602038088173
+P0379,2022-02-12,69,M,Psychosis,3,94,Self-discharge,Antipsychotic,1,0.3071750677895354
+P0381,2021-12-08,32,F,Personality,6,16,Transfer,Anxiolytic,1,0.39665904505762195
+P0382,2021-05-25,56,F,Neurodevelopmental,1,85,Transfer,None,0,0.23542344017710629
+P0383,2020-10-16,83,F,Substance,1,37,Planned,Antidepressant,0,0.07151670457825841
+P0384,2021-01-27,84,M,Anxiety,6,38,Self-discharge,Antidepressant,0,0.3941903493768444
+P0385,2022-09-07,60,M,Affective,0,86,Planned,Antidepressant,0,0.0745249350521048
+P0386,2020-07-24,83,M,Neurodevelopmental,1,116,Transfer,Antipsychotic,0,0.16332252542189546
+P0387,2022-02-21,30,M,Affective,4,47,Transfer,Anxiolytic,1,0.20815346733899226
+P0388,2020-06-15,19,M,Neurodevelopmental,10,22,Transfer,Mood stabiliser,0,0.5801948410436658
+P0389,2019-07-11,65,M,Psychosis,1,52,Deceased,Anxiolytic,0,0.11716663671931848
+P0390,2018-08-01,71,F,Psychosis,1,17,Planned,Antipsychotic,0,0.10373030002715863
+P0391,2018-03-01,74,M,Substance,6,100,Transfer,None,0,0.18130435445138157
+P0393,2020-12-07,85,F,Substance,9,29,Transfer,None,0,0.2319773015079663
+P0394,2022-09-15,49,F,Anxiety,10,87,Deceased,Antipsychotic,0,0.4748186011971773
+P0395,2022-11-16,19,F,Psychosis,8,109,Deceased,Anxiolytic,1,0.4503877258337811
+P0396,2022-08-01,60,M,Affective,8,29,Deceased,Anxiolytic,1,0.20747693051736588
+P0397,2022-03-07,75,M,Personality,7,41,Planned,Anxiolytic,0,0.22362014816522469
+P0398,2021-02-25,18,M,Substance,9,82,Transfer,None,1,0.4070545120540568
+P0399,2022-01-06,64,M,Psychosis,7,43,Deceased,Mood stabiliser,0,0.23459719564304887
+P0400,2020-12-05,18,M,Anxiety,10,103,Transfer,None,1,0.580574179222835
+P0401,2019-02-06,81,M,Neurodevelopmental,6,14,Transfer,None,1,0.2559793476600977
+P0402,2021-07-20,76,M,Neurodevelopmental,5,14,Deceased,Antidepressant,0,0.2177895561277075
+P0403,2018-01-09,75,F,Neurodevelopmental,9,65,Self-discharge,Anxiolytic,0,0.6067369009432504
+P0404,2020-03-04,79,F,Psychosis,9,23,Self-discharge,Antidepressant,0,0.4822752882496545
+P0405,2019-08-26,67,F,Substance,3,36,Deceased,Mood stabiliser,0,0.1273947948082552
+P0406,2021-07-19,83,M,Neurodevelopmental,8,111,Transfer,None,1,0.33981483831107423
+P0407,2022-04-08,62,F,Psychosis,10,23,Transfer,Antidepressant,1,0.3814733139007902
+P0408,2020-12-06,71,F,Neurodevelopmental,8,37,Deceased,Antidepressant,1,0.3517655909602944
+P0409,2022-09-16,25,M,Anxiety,2,37,Transfer,Antipsychotic,1,0.2716114175806372
+P0410,2020-03-07,22,M,Personality,1,79,Self-discharge,None,1,0.43589242699399483
+P0411,2020-05-03,54,F,Neurodevelopmental,0,119,Deceased,Anxiolytic,0,0.2015517459018367
+P0412,2021-07-21,24,M,Neurodevelopmental,4,26,Deceased,Antipsychotic,0,0.32912144804662935
+P0413,2019-01-18,43,F,Psychosis,4,58,Self-discharge,Antidepressant,0,0.44055205761052546
+P0415,2022-09-23,37,M,Psychosis,5,77,Planned,None,0,0.23104654489790408
+P0416,2020-12-02,63,M,Neurodevelopmental,5,68,Self-discharge,Antipsychotic,1,0.47294353452723337
+P0417,2019-11-10,69,M,Anxiety,3,114,Self-discharge,Mood stabiliser,0,0.3698870330000127
+P0418,2020-07-01,85,F,Substance,10,2,Planned,Mood stabiliser,1,0.1997841040906297
+P0419,2019-06-10,49,M,Neurodevelopmental,5,49,Planned,Anxiolytic,0,0.26547756127792194
+P0420,2021-08-27,65,F,Substance,7,63,Planned,Mood stabiliser,1,0.19035361852273525
+P0421,2021-10-04,39,F,Substance,0,81,Planned,Antipsychotic,0,0.11370406934790908
+P0422,2018-02-18,31,M,Substance,6,83,Planned,Antipsychotic,0,0.22206916829374834
+P0423,2020-04-14,24,M,Anxiety,8,10,Self-discharge,Mood stabiliser,1,0.6455289942495763
+P0424,2018-05-10,20,F,Neurodevelopmental,1,69,Planned,None,0,0.26599286590928695
+P0425,2018-06-27,27,M,Substance,1,38,Transfer,None,0,0.15707474175850702
+P0426,2022-06-20,21,F,Psychosis,8,29,Self-discharge,Anxiolytic,0,0.637735320359565
+P0428,2019-03-10,68,F,Substance,1,40,Self-discharge,Mood stabiliser,0,0.21490509077543954
+P0429,2018-08-23,38,M,Psychosis,9,107,Transfer,Antipsychotic,1,0.4200822307677545
+P0430,2018-07-21,77,F,Substance,1,38,Planned,Mood stabiliser,0,0.07707643268919186
+P0431,2021-06-22,63,M,Neurodevelopmental,10,31,Planned,Mood stabiliser,1,0.3699251396204668
+P0432,2021-03-06,60,F,Neurodevelopmental,4,89,Self-discharge,None,1,0.4927422635947532
+P0433,2022-09-17,18,M,Psychosis,3,92,Deceased,Mood stabiliser,0,0.25787544977182164
+P0434,2021-02-03,79,F,Personality,5,100,Transfer,Anxiolytic,1,0.25913689930983735
+P0435,2018-02-08,53,M,Substance,3,34,Planned,Antidepressant,0,0.11515169626750789
+P0436,2021-01-10,69,F,Psychosis,0,71,Transfer,None,0,0.13036084205578455
+P0438,2018-11-23,48,F,Neurodevelopmental,2,97,Self-discharge,Anxiolytic,1,0.4657431439720592
+P0439,2022-04-09,36,F,Neurodevelopmental,7,46,Planned,Antipsychotic,0,0.39545105226980637
+P0440,2020-08-19,23,F,Psychosis,8,117,Transfer,Anxiolytic,0,0.47464600059662104
+P0441,2021-03-31,59,M,Neurodevelopmental,8,82,Transfer,Mood stabiliser,0,0.4033128839959345
+P0442,2019-04-02,64,F,Neurodevelopmental,1,67,Transfer,Anxiolytic,0,0.2122276663326918
+P0443,2018-12-06,80,F,Substance,0,65,Self-discharge,Anxiolytic,0,0.17433613297084816
+P0444,2020-04-29,37,M,Psychosis,5,78,Planned,Antipsychotic,0,0.23132150375307944
+P0445,2019-05-15,79,F,Psychosis,9,21,Deceased,Antidepressant,1,0.27113413234163974
+P0446,2019-01-04,83,M,Substance,2,8,Self-discharge,Mood stabiliser,0,0.1750032813534287
+P0447,2019-03-20,20,F,Neurodevelopmental,10,106,Transfer,Antidepressant,1,0.6426918678474252
+P0448,2021-09-12,39,M,Personality,9,19,Self-discharge,None,1,0.6321661602925615
+P0449,2018-09-28,76,F,Substance,1,30,Deceased,Anxiolytic,0,0.08853148033293919
+P0450,2020-09-01,82,F,Personality,2,78,Planned,Antipsychotic,0,0.13808058067039047
+P0451,2021-01-09,82,M,Affective,7,85,Self-discharge,None,0,0.3166533161618235
+P0452,2020-05-28,73,F,Personality,5,112,Planned,None,1,0.2242821608150671
+P0453,2019-06-06,66,M,Substance,9,13,Deceased,Antipsychotic,0,0.2217304465402287
+P0455,2020-01-12,84,M,Personality,10,27,Transfer,Anxiolytic,1,0.33666970859490297
+P0456,2022-03-27,51,F,Personality,9,47,Transfer,Anxiolytic,1,0.4492277108067337
+P0457,2021-03-29,40,M,Substance,8,62,Transfer,Mood stabiliser,1,0.3020460897419927
+P0458,2019-03-16,33,F,Psychosis,7,101,Self-discharge,Antidepressant,1,0.5935504436469031
+P0459,2020-08-23,24,M,Personality,10,1,Planned,Antipsychotic,0,0.4468388132979228
+P0460,2021-06-11,46,M,Affective,9,5,Deceased,Anxiolytic,0,0.25872264261617767
+P0461,2022-10-08,25,M,Neurodevelopmental,7,57,Planned,Antipsychotic,0,0.39920564753360627
+P0462,2018-12-14,22,F,Substance,8,90,Self-discharge,None,0,0.5907896393636167
+P0464,2022-07-29,29,F,Anxiety,8,118,Transfer,Mood stabiliser,1,0.5176018928669998
+P0465,2018-08-07,69,F,Affective,4,23,Deceased,None,0,0.1323685457913035
+P0466,2020-02-12,32,F,Anxiety,8,105,Transfer,Anxiolytic,0,0.5026657407856058
+P0467,2018-08-27,76,F,Personality,9,111,Planned,Anxiolytic,1,0.3265961177328071
+P0469,2021-02-09,49,M,Affective,6,87,Transfer,Antidepressant,0,0.2233632456715981
+P0470,2022-02-18,52,M,Neurodevelopmental,10,120,Self-discharge,Anxiolytic,1,0.6933085037150432
+P0471,2022-05-15,44,M,Psychosis,3,108,Transfer,Antipsychotic,1,0.2247976593454237
+P0472,2021-06-25,81,F,Affective,8,6,Deceased,Mood stabiliser,0,0.18143518521135935
+P0473,2022-03-17,53,F,Psychosis,8,36,Deceased,Antipsychotic,0,0.3183107904082943
+P0474,2020-07-25,79,F,Affective,8,45,Deceased,Antipsychotic,0,0.1946804506129167
+P0475,2020-01-11,19,M,Neurodevelopmental,3,49,Planned,Mood stabiliser,0,0.28898902844985663
+P0476,2020-10-18,48,M,Personality,9,44,Transfer,Antipsychotic,0,0.4217637717899418
+P0477,2021-11-05,64,F,Anxiety,7,24,Self-discharge,None,1,0.5248330564451832
+P0478,2020-08-26,48,F,Personality,6,26,Self-discharge,Antipsychotic,0,0.5402314567929797
+P0479,2019-05-29,84,F,Neurodevelopmental,5,101,Deceased,Mood stabiliser,0,0.24917701022965372
+P0480,2022-03-05,38,M,Psychosis,4,61,Planned,Anxiolytic,0,0.2010086484608562
+P0481,2019-02-12,50,M,Affective,6,16,Transfer,None,0,0.20274418238973718
+P0482,2022-12-27,54,M,Anxiety,10,66,Deceased,Anxiolytic,1,0.4143115934089967
+P0483,2018-06-12,36,M,Neurodevelopmental,5,54,Deceased,Antidepressant,1,0.33450520510538606
+P0484,2022-12-23,55,F,Anxiety,9,83,Deceased,Mood stabiliser,0,0.4192282002260949
+P0485,2022-01-30,84,F,Personality,2,24,Planned,Antipsychotic,0,0.12550470717664539
+P0486,2022-12-05,28,M,Psychosis,6,14,Planned,Antidepressant,0,0.2609059406194388
+P0487,2021-09-03,85,M,Affective,4,80,Self-discharge,Antidepressant,0,0.22522949559762329
+P0488,2018-03-13,54,F,Neurodevelopmental,2,17,Self-discharge,Antidepressant,0,0.41573001494832607
+P0489,2021-11-29,78,F,Substance,4,71,Deceased,Antipsychotic,0,0.13286517587454644
+P0490,2020-09-13,73,F,Neurodevelopmental,10,69,Transfer,Mood stabiliser,0,0.45738359391830763
+P0491,2020-12-07,64,F,Anxiety,2,39,Planned,Antidepressant,0,0.16239288713724861
+P0492,2018-01-19,78,F,Affective,7,97,Deceased,Mood stabiliser,0,0.18757673844307432
+P0493,2019-05-27,18,F,Anxiety,3,53,Deceased,Anxiolytic,1,0.3271975976874831
+P0494,2022-04-15,66,M,Anxiety,1,55,Self-discharge,None,0,0.29659870604356003
+P0495,2019-01-21,52,M,Neurodevelopmental,8,104,Transfer,Anxiolytic,0,0.4341104184470207
+P0496,2019-10-19,76,F,Personality,4,90,Deceased,Antipsychotic,1,0.2134936629435899
+P0498,2018-06-14,71,M,Personality,5,60,Planned,Mood stabiliser,0,0.19128951298948552
+P0500,2020-08-01,49,F,Personality,3,95,Planned,Antipsychotic,0,0.22633597866185806
